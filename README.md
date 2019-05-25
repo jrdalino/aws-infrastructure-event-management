@@ -214,7 +214,7 @@ Enter recommendations here.
 Enter Post IEM Analysis here.
 
 ## Appendix A: References
-Enter Refrences here.
+Enter References here.
 
 ## Appendix B: AWS Service Usage for the last 12 months
 Enter AWS Service Usage for the 12 months.
