@@ -1,4 +1,5 @@
 # AWS Infrastructure Event Management
+Reference: https://d1.awsstatic.com/whitepapers/aws-infrastructure-event-readiness.pdf
 
 ## Section 1: Event Details and Sucess Criteria
 Enter event details here.
