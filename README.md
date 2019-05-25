@@ -163,7 +163,7 @@ The questions below are intended to be answered by technical staff responsible f
 - Is there an infrastructure stress point in the design? (Eg. network bandwidth on instance)
 - Is there an application stress point in the design? (Eg. single row on database)
 - What load testing will be performed on the platform? 
-- Is there a CDN being utilized for this event? Nope
+- Is there a CDN being utilized for this event?
 - Has logging been enabled on key resources to identify potential areas of performance for a repeat event? (output to S3 or other?)
 - Have alarms been set for various performance breaches? (Eg. Cloudwatch or other customer based tool, where is the output going to?)
 
