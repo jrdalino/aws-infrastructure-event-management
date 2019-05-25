@@ -87,7 +87,7 @@ Please provide URL and credentials for any websites, portals or monitoring syste
 - Case Body: Requesting proactive support for IEM. <Attach IEM Runbook>
 
 #### Step 3: Broadcast IEM Alert to Stakeholders
-#### Step 4: Update on Architecture Diagrams
+#### Step 4: Update Architecture Diagrams
 
 ### Plan
 
