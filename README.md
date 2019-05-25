@@ -200,6 +200,41 @@ Enter Load Testing Results here.
 
 ## Section 15: Event Readiness Scorecard
 
+### Availability: Architecture
+- GREEN: Single Points of Failure eliminated at all tiers
+- YELLOW: At risk for failure in one or more tiers
+- RED: No failover components or plans
+
+### Stability: Case Management
+- GREEN: No languishing cases or open tickets to service teams that would impact system stability
+- YELLOW: Risk - Customer has opened several recurring cases recently that indicate a trend that could impact system stability during the event
+- RED: Issue - Customer has one or more open cases that is not resolved; open tickets with Service Team is not progressing; this will impact system stability during the event if not resolved.
+
+### Scalability: Capacity (EC2 and Other Critical AWS Services)
+- GREEN: Service limits increased; Service team validated capacity is available in desired Region/AZ or Capacity is provisioned
+- YELLOW: Risk - Capacity signals unknown or Capacity requested but not verified by Service Team
+- RED: Issue - Capacity will not available; Service limits cannot be increased
+
+### Scalability: Capacity (Load Balancing ALB, NLB, CLB Pre-warm)
+- GREEN: Pre-warms requested or completed; Pre-warm check performed by ELB Service Team
+- YELLOW: Risk - Pre-warms not requested; ELB configuration not verified; risk of not scaling to expected levels or delays in scaling eminent
+- RED: Issue - ELBs undersized or not correctly configured, back-ends not configured; system will not scale to expected levels during event
+
+### Scalability: Capacity (Load Test)
+- GREEN: Completed load testing - all systems capable of expected load during event
+- YELLOW: Risk - Load testing not completed or levels not satisfactory; risk of not scaling to expected levels during event
+- RED: Issue - Load testing failed; system will not scale to expected levels during event
+
+### Security: Trusted Advisor
+- GREEN: TA Security Checks all Green or determined will not impact event (Attention on MFA on Root, CloudTrail Logging, Exposed Access Keys, Security Groups - Ports Unrestricted)
+- YELLOW: Risk - One or more Security Checks appear as Yellow: Investigation recommended
+- RED: Issue - One or more Security Checks appear as Red: Action recommended (Capture Action for Reporting)
+
+### Security: DDOS Protection
+- GREEN: Customer is following minimum DDoS Protection (BP1, BP3, BP6, & BP7 - ref: https://d0.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf
+- YELLOW: Risk - Customer is not substantially following the best practices for DDoS-resiliency and is operating with an elevated degree of risk
+- RED: Issue - Application is poorly designed and deployed and is NOT prepared to withstand common DoS/DDoS attacks
+
 ## Section 16: Action Items / Risk / Issue Tracker
 - Description
 - Status : Red | Yellow | Green
