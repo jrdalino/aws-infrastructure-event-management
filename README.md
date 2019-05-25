@@ -72,11 +72,58 @@ Please provide URL and credentials for any websites, portals or monitoring syste
 
 ### Initiate
 
+#### Step 1: Schedule an IEM Kickoff call
+- Type of Event:
+- Key dates:
+- Support Requirements of the event
+- List of Business-Critical Workloads and AWS Service dependencies:
+- Potential Capacity requirements
+- Subjects requiring expert level review:
+- Last Well Architected Review
+
+#### Step 2: Open AWS Support Case for IEM
+- Partner: AWS Account ID of highest utilization involved account, then select Account Name
+- Subject: IEM Alert - <Customer Name> - <Event Name>  Please use this naming convention exactly
+- Case Body: Requesting proactive support for IEM. <Attach IEM Runbook>
+
+#### Step 3: Broadcast IEM Alert to Stakeholders
+#### Step 4: Update on Architecture Diagrams
+
 ### Plan
+
+#### Step 5: Architecture review sessions with SA
+#### Step 6: Work on this IEM Planning Workbook
+#### Step 7: Create an Internal Event Wiki Page
+#### Step 8: Check Trusted Advisor
+#### Step 9: Check Service Limits
+#### Step 10: Capacity Planning
+#### Step 11: Load Testing
+#### Step 12: Create Directory of SME's
+#### Step 13: Step 13: Determine Event Readiness - Use the Event Readiness Scorecard to guide this conversation.
+- AWS Service Readiness (Availability and Capacity)
+- Operational Readiness (Stability)
+- Security Readiness (DDoS Prep, Trusted Advisor checks)
+
+#### Step 14: Pre-Event Readiness Check (one week prior to event)
+- Drive open action items to completion
+
+#### Step 15: Escalations Matrix
 
 ### Execute
 
+#### Step 16
+#### Step 17: IEM Monitoring - Attend War rooms, join Slack chat rooms, and conference calls with customer as planned
+#### Step 18: Monitor Infrastructure Dashboards
+#### Step 19: Active Event Escalations
+
 ### Review
+
+#### Step 20: Scale down resources to normal operating levels
+#### Step 21: Review event metrics
+#### Step 22: Review action items or failures with customer and close the loop
+#### Step 23: Resolve the IEM Alert Support Case and Set the Reason Code and Category-Type
+#### Step 24: IEM Survey Request
+#### Step 25: Create IEM Success Story
 
 ## Section 9: Architecture Diagram
 - https://www.draw.io/
