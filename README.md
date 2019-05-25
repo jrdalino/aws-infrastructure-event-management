@@ -111,9 +111,9 @@ Please provide URL and credentials for any websites, portals or monitoring syste
 
 ### Execute
 
-#### Step 16
-#### Step 17: IEM Monitoring - Attend War rooms, join Slack chat rooms, and conference calls with customer as planned
-#### Step 18: Monitor Infrastructure Dashboards
+#### Step 16: Attend War rooms, join Slack chat rooms, and conference calls with customer as planned
+#### Step 17: Monitor Infrastructure Dashboards
+#### Step 18: Send Regular Updates to Stakeholders
 #### Step 19: Active Event Escalations
 
 ### Review
@@ -129,8 +129,10 @@ Please provide URL and credentials for any websites, portals or monitoring syste
 - https://www.draw.io/
 
 ## Section 10: Trusted Advisor Review
+- https://console.aws.amazon.com/trustedadvisor/home?region=ap-southeast-1#/dashboard
 
 ## Section 11: Service Limits
+- https://console.aws.amazon.com/trustedadvisor/home?region=ap-southeast-1#/category/service-limits
 
 ## Section 12: Well Operated Checklist
 The questions below are intended to be answered by technical staff responsible for the successful outcome of the IEM event.
@@ -138,7 +140,7 @@ The questions below are intended to be answered by technical staff responsible f
 ### Monitoring
 - What internal tools are being used for monitoring during the event that AWS needs access to?
 - What metrics are crucial to be informed about during the event?
-- ELB: Latency, ELB 5XX,4XX,  Backend 5XX,4XX, Backend connection errors, Surge Queue, Healthy host count
+- ELB: Latency, ELB 5XX,4XX, Backend 5XX,4XX, Backend connection errors, Surge Queue, Healthy host count
 - EC2: CPU, Network In, Network Packets In, IOPS, Disk Latencies
 - ElastiCache Memcached: GetHits, GetMisses, BytesUsedForCacheItems, Evictions, FreeableMemory, CPUUtilization, NetworkBytesIn, NetworkBytesOut
 - RDS: Read and Write query throughput and performance, Replication and reliability, Resource utilization, Connections
@@ -201,7 +203,7 @@ Enter Load Testing Results here.
 ## Section 16: Action Items / Risk / Issue Tracker
 - Description
 - Status : Red | Yellow | Green
-- Reason : Ngh availability
+- Reason :
 - Owner: 
 - Remarks: 
 
